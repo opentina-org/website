@@ -1,0 +1,108 @@
+[copy]
+other = "Kopieren"
+[copied]
+other = "Kopiert"
+[error404]
+other = "Seite nicht gefunden"
+[notFoundText]
+other = "Die gesuchte Seite existiert nicht oder wurde verschoben."
+[backHome]
+other = "Zur Startseite"
+[issues]
+other = "Issues"
+[footerTagline]
+other = "Open-Source-Systemsoftware für die Allwinner-A733-Plattform."
+[footerLicense]
+other = "Inhalte dieser Website stehen unter CC BY 4.0."
+[footerSource]
+other = "Quellcode dieser Website"
+[heroEyebrow]
+other = "Open-Source-Community"
+[heroTitle]
+other = "Systemsoftware für Allwinner A733"
+[heroTagline]
+other = "OpenTina bietet Low-Level-Systemsoftware und Multi-OS-Distributionsunterstützung für die Allwinner-A733-Chipplattform: Kernel in Upstream-Qualität, Bootloader, vertrauenswürdige Firmware und fertige Distributionen."
+[chipMultiOS]
+other = "Multi-OS"
+[ctaDocs]
+other = "Erste Schritte"
+[ctaRepo]
+other = "GitHub-Organisation"
+[reposTitle]
+other = "Wo alles zu finden ist"
+[reposLead]
+other = "Die gesamte Entwicklung erfolgt auf GitHub unter der Organisation opentina-org. Hier eine Übersicht der Kern-Repositorien."
+[groupBSP]
+other = "Low-Level & Kern-BSP"
+[groupDistro]
+other = "Build-Systeme & OS-Distributionen"
+[repoBuild]
+other = "Übergeordnete Orchestrierungswerkzeuge, Build-Skripte und Konfigurationen — der Einstiegspunkt für den Build mit einem Klick."
+[repoTfa]
+other = "ARM-Trusted-Firmware-(ATF-)Port für Allwinner A733 — PSCI und Secure World."
+[repoOpTee]
+other = "Vertrauenswürdige Seite der OP-TEE-Execution-Environment für Allwinner A733."
+[repoUboot]
+other = "Für Allwinner-A733-Plattformen angepasster U-Boot-Bootloader — SPL, Fastboot, Bootflow."
+[repoLinux]
+other = "Linux-Kernelbaum mit eingebetteten Device Trees für Allwinner A733 — Branch Linux 6.18 LTS."
+[repoAwbin]
+other = "Binärdateien und Firmware-Blobs für Allwinner A733."
+[repoXfel]
+other = "Kleine FEL-Werkzeuge für Allwinner-SoCs — Kommunikation per USB im FEL-Modus."
+[repoBuildroot]
+other = "Für Allwinner A733 vorkonfigurierter Buildroot-Baum — minimales, schnell startendes Rootfs."
+[repoOpenwrt]
+other = "OpenWrt-Target-Definitionen und Netzwerk-Stack für Allwinner A733 — Router- und Gateway-Lösungen."
+[repoYocto]
+other = "Yocto-Project-BSP-Layer für OpenTina-Hardware — Industrie- und Enterprise-Linux."
+[repoDebian]
+other = "Debian-Rootfs-Erstellungsskripte und Image-Builder — stabile Desktop- und Serverumgebung."
+[repoUbuntu]
+other = "Ubuntu-Rootfs-Erstellungsskripte und Board-Enablement — moderner Desktop und AI-Edge-Evaluation."
+[tagMinimal]
+other = "Minimal"
+[tagRouter]
+other = "Router"
+[startTitle]
+other = "Erste Schritte"
+[startLead]
+other = "Vier Befehle von einer frischen Maschine bis zum bootfähigen Image."
+[step1Title]
+other = "Build-Repositorium klonen"
+[step1Desc]
+other = "Das übergeordnete Orchestrierungsrepositorium steuert alles andere."
+[step2Title]
+other = "Initialisieren und Quellen laden"
+[step2Desc]
+other = "Lädt alle benötigten Quellbäume über das Standard-Manifest herunter."
+[step3Title]
+other = "Unterstützte Ziele auflisten"
+[step3Desc]
+other = "Zeigt alle unterstützten Boards mit den verfügbaren OS-Distributionen."
+[step4Title]
+other = "Image bauen"
+[step4Desc]
+other = "Baut die komplette Image-Kette für das gewählte Board."
+[startMore]
+other = "Detaillierte Anleitungen, Build-Optionen und erweiterte Konfiguration finden Sie in"
+[communityTitle]
+other = "Community & Support"
+[communityLead]
+other = "OpenTina wird offen entwickelt — Code, Issues und Roadmap alles auf GitHub."
+[cardIssuesTitle]
+other = "Problem melden"
+[cardIssuesDesc]
+other = "Fehler gefunden oder Frage? Eröffnen Sie ein Issue im opentina-Repositorium."
+[cardDocsTitle]
+other = "Dokumentation"
+[cardDocsDesc]
+other = "Tiefgehende Anleitungen und technische Dokumentation liegen im docs-Repositorium."
+[cardAllReposTitle]
+other = "Alle Repositorien"
+[cardAllReposDesc]
+other = "Durchsuchen Sie die vollständige Projektliste der Organisation."
+[about]
+other = "Über uns"
+[docs]
+other = "Doku"

@@ -1,0 +1,108 @@
+[copy]
+other = "Copier"
+[copied]
+other = "Copié"
+[error404]
+other = "Page introuvable"
+[notFoundText]
+other = "La page que vous recherchez n'existe pas ou a été déplacée."
+[backHome]
+other = "Retour à l'accueil"
+[issues]
+other = "Issues"
+[footerTagline]
+other = "Logiciels système open source pour la plateforme Allwinner A733."
+[footerLicense]
+other = "Le contenu de ce site est sous licence CC BY 4.0."
+[footerSource]
+other = "Code source du site"
+[heroEyebrow]
+other = "Communauté open source"
+[heroTitle]
+other = "Logiciels système pour Allwinner A733"
+[heroTagline]
+other = "OpenTina fournit des logiciels système de bas niveau et une prise en charge multi-OS pour la plateforme de puces Allwinner A733 : noyau de qualité amont, chargeurs de démarrage, firmware de confiance et distributions prêtes à l'emploi."
+[chipMultiOS]
+other = "Multi-OS"
+[ctaDocs]
+other = "Démarrer"
+[ctaRepo]
+other = "Organisation GitHub"
+[reposTitle]
+other = "Où se trouve chaque ressource"
+[reposLead]
+other = "Tout le développement se fait sur GitHub, au sein de l'organisation opentina-org. Voici la carte des dépôts principaux."
+[groupBSP]
+other = "Niveau bas & BSP principal"
+[groupDistro]
+other = "Systèmes de build & distributions OS"
+[repoBuild]
+other = "Outils d'orchestration de haut niveau, scripts et configurations de build — le point d'entrée unique."
+[repoTfa]
+other = "Port ARM Trusted Firmware (ATF) pour Allwinner A733 — PSCI et Secure World."
+[repoOpTee]
+other = "Part de confiance de l'environnement d'exécution OP-TEE pour Allwinner A733."
+[repoUboot]
+other = "Chargeur de démarrage U-Boot adapté aux plateformes Allwinner A733 — SPL, Fastboot, bootflow."
+[repoLinux]
+other = "Arbre du noyau Linux avec device trees embarqués pour Allwinner A733 — branche Linux 6.18 LTS."
+[repoAwbin]
+other = "Binaires et blobs de firmware liés à l'Allwinner A733."
+[repoXfel]
+other = "Outils FEL compacts pour les SoC Allwinner — communication USB en mode FEL."
+[repoBuildroot]
+other = "Arbre Buildroot préconfiguré pour Allwinner A733 — rootfs minimal et démarrage rapide."
+[repoOpenwrt]
+other = "Définitions de cible et pile réseau OpenWrt pour Allwinner A733 — solutions routeur et passerelle."
+[repoYocto]
+other = "Couche BSP Yocto Project pour le matériel OpenTina — Linux industriel et entreprise."
+[repoDebian]
+other = "Scripts de création du rootfs et constructeur d'images Debian — environnement serveur et bureau stable."
+[repoUbuntu]
+other = "Scripts de génération du rootfs et support des cartes Ubuntu — bureau moderne et évaluation AI edge."
+[tagMinimal]
+other = "Minimal"
+[tagRouter]
+other = "Routeur"
+[startTitle]
+other = "Démarrage rapide"
+[startLead]
+other = "Quatre commandes, d'une machine vierge à un image amorçable."
+[step1Title]
+other = "Cloner le dépôt de build"
+[step1Desc]
+other = "Le dépôt d'orchestration de haut niveau pilote tous les autres."
+[step2Title]
+other = "Initialiser et récupérer les sources"
+[step2Desc]
+other = "Télécharge tous les arbres de code requis via le manifeste par défaut."
+[step3Title]
+other = "Lister les cibles supportées"
+[step3Desc]
+other = "Affiche toutes les cartes supportées ainsi que les distributions OS disponibles."
+[step4Title]
+other = "Construire une image"
+[step4Desc]
+other = "Construit toute la chaîne d'image pour la carte choisie."
+[startMore]
+other = "Pour des instructions détaillées, des options de build et une configuration avancée, consultez"
+[communityTitle]
+other = "Communauté & assistance"
+[communityLead]
+other = "OpenTina se développe en open : code, issues et feuille de route sont sur GitHub."
+[cardIssuesTitle]
+other = "Signaler un problème"
+[cardIssuesDesc]
+other = "Un bug ou une question ? Ouvrez un issue dans le dépôt opentina."
+[cardDocsTitle]
+other = "Documentation"
+[cardDocsDesc]
+other = "Guides détaillés et documentation technique dans le dépôt docs."
+[cardAllReposTitle]
+other = "Tous les dépôts"
+[cardAllReposDesc]
+other = "Parcourez la liste complète des projets maintenus par l'organisation."
+[about]
+other = "À propos"
+[docs]
+other = "Docs"

@@ -1,0 +1,108 @@
+[copy]
+other = "복사"
+[copied]
+other = "복사됨"
+[error404]
+other = "페이지를 찾을 수 없습니다"
+[notFoundText]
+other = "찾으시는 페이지가 존재하지 않거나 이동되었습니다."
+[backHome]
+other = "홈으로 돌아가기"
+[issues]
+other = "이슈"
+[footerTagline]
+other = "올위너 A733 플랫폼을 위한 오픈 소스 시스템 소프트웨어 커뮤니티."
+[footerLicense]
+other = "사이트 콘텐츠는 CC BY 4.0 라이선스입니다."
+[footerSource]
+other = "사이트 소스 코드"
+[heroEyebrow]
+other = "오픈 소스 커뮤니티"
+[heroTitle]
+other = "올위너 A733을 위한 시스템 소프트웨어"
+[heroTagline]
+other = "OpenTina는 올위너 A733 칩 플랫폼을 위한 저수준 시스템 소프트웨어와 멀티 OS 배포 지원을 제공합니다. 업스트림 수준의 커널, 부트로더, 신뢰할 수 있는 펌웨어, 그리고 바로 사용 가능한 배포판까지."
+[chipMultiOS]
+other = "멀티 OS"
+[ctaDocs]
+other = "시작하기"
+[ctaRepo]
+other = "GitHub 조직"
+[reposTitle]
+other = "리소스 위치 안내"
+[reposLead]
+other = "모든 개발은 GitHub의 opentina-org 조직에서 진행됩니다. 핵심 저장소는 다음과 같습니다."
+[groupBSP]
+other = "저수준 및 핵심 BSP"
+[groupDistro]
+other = "빌드 시스템 및 OS 배포판"
+[repoBuild]
+other = "최상위 오케스트레이션 도구, 빌드 스크립트 및 설정 — 원클릭 빌드 진입점."
+[repoTfa]
+other = "올위너 A733용 ARM Trusted Firmware(ATF) 포트 — PSCI 및 시큐어 월드."
+[repoOpTee]
+other = "올위너 A733용 OP-TEE 신뢰 실행 환경의 신뢰 측 구현."
+[repoUboot]
+other = "올위너 A733 플랫폼에 맞춘 U-Boot 부트로더 — SPL, Fastboot, 부트 플로우."
+[repoLinux]
+other = "올위너 A733 임베디드 디바이스 트리를 포함한 Linux 커널 트리 — Linux 6.18 LTS 브랜치."
+[repoAwbin]
+other = "올위너 A733 관련 바이너리 및 펌웨어 blob."
+[repoXfel]
+other = "올위너 SoC를 위한 초경량 FEL 도구 — USB를 통한 FEL 모드 통신."
+[repoBuildroot]
+other = "올위너 A733용으로 사전 구성된 Buildroot 트리 — 미니멀하고 빠르게 부팅되는 rootfs."
+[repoOpenwrt]
+other = "올위너 A733용 OpenWrt 타깃 정의 및 네트워크 스택 — 라우터 및 게이트웨이 솔루션."
+[repoYocto]
+other = "OpenTina 하드웨어용 Yocto Project BSP 레이어 — 산업용 및 엔터프라이즈 Linux."
+[repoDebian]
+other = "Debian rootfs 생성 스크립트 및 이미지 빌더 — 안정적인 데스크톱 및 서버 환경."
+[repoUbuntu]
+other = "Ubuntu rootfs 생성 스크립트 및 보드 지원 — 모던 데스크톱 및 AI 엣지 평가."
+[tagMinimal]
+other = "미니멀"
+[tagRouter]
+other = "라우터"
+[startTitle]
+other = "빠른 시작"
+[startLead]
+other = "네 개의 명령으로 새 머신에서 부팅 가능한 이미지까지."
+[step1Title]
+other = "빌드 저장소 클론"
+[step1Desc]
+other = "최상위 오케스트레이션 저장소가 나머지 모든 것을 제어합니다."
+[step2Title]
+other = "초기화 및 소스 가져오기"
+[step2Desc]
+other = "기본 매니페스트를 통해 필요한 모든 소스 트리를 가져옵니다."
+[step3Title]
+other = "지원 대상 목록"
+[step3Desc]
+other = "지원되는 보드와 사용 가능한 OS 배포판을 표시합니다."
+[step4Title]
+other = "이미지 빌드"
+[step4Desc]
+other = "선택한 보드에 대한 전체 이미지 체인을 빌드합니다."
+[startMore]
+other = "자세한 사용법, 빌드 옵션 및 고급 구성은 다음을 참조하세요:"
+[communityTitle]
+other = "커뮤니티 및 지원"
+[communityLead]
+other = "OpenTina는 공개적으로 개발됩니다. 코드, 이슈, 로드맵 모두 GitHub에서 진행됩니다."
+[cardIssuesTitle]
+other = "이슈 등록"
+[cardIssuesDesc]
+other = "버그를 발견했거나 질문이 있으신가요? opentina 저장소에 이슈를 등록해 주세요."
+[cardDocsTitle]
+other = "문서"
+[cardDocsDesc]
+other = "심층 가이드와 기술 문서는 docs 저장소에 있습니다."
+[cardAllReposTitle]
+other = "모든 저장소"
+[cardAllReposDesc]
+other = "조직이 관리하는 전체 프로젝트 목록을 둘러보세요."
+[about]
+other = "소개"
+[docs]
+other = "문서"

@@ -1,0 +1,108 @@
+[copy]
+other = "複製"
+[copied]
+other = "已複製"
+[error404]
+other = "找不到頁面"
+[notFoundText]
+other = "您尋找的頁面不存在或已移動。"
+[backHome]
+other = "返回首頁"
+[issues]
+other = "問題回報"
+[footerTagline]
+other = "全志 A733 平台的開源系統軟體社群。"
+[footerLicense]
+other = "網站內容採用 CC BY 4.0 授權。"
+[footerSource]
+other = "網站原始碼"
+[heroEyebrow]
+other = "開源社群"
+[heroTitle]
+other = "全志 A733 的系統軟體"
+[heroTagline]
+other = "OpenTina 為全志 A733 晶片平台提供底層系統軟體與多作業系統發行版支援：上游等級的核心、開機載入程式、可信固體，以及開箱即用的發行版。"
+[chipMultiOS]
+other = "多系統支援"
+[ctaDocs]
+other = "快速入門"
+[ctaRepo]
+other = "GitHub 組織"
+[reposTitle]
+other = "資源都在哪裡"
+[reposLead]
+other = "所有開發都在 GitHub 的 opentina-org 組織下進行。以下是核心倉庫一覽。"
+[groupBSP]
+other = "底層與核心 BSP"
+[groupDistro]
+other = "建構系統與作業系統發行版"
+[repoBuild]
+other = "頂層編排工具、建置腳本與設定 —— 一鍵建置入口。"
+[repoTfa]
+other = "全志 A733 的 ARM 可信固體（ATF）移植 —— PSCI 與安全世界。"
+[repoOpTee]
+other = "全志 A733 上 OP-TEE 可信執行環境的可信側實作。"
+[repoUboot]
+other = "面向全志 A733 平台客製的 U-Boot 開機載入程式 —— SPL、Fastboot、開機流程。"
+[repoLinux]
+other = "包含全志 A733 嵌入式裝置樹的 Linux 核心原始碼樹 —— Linux 6.18 LTS 分支。"
+[repoAwbin]
+other = "全志 A733 相關的二進位檔與韌體 blob。"
+[repoXfel]
+other = "全志 SoC 的輕量 FEL 工具 —— 透過 USB FEL 模式通訊。"
+[repoBuildroot]
+other = "為全志 A733 預先配置的 Buildroot 原始碼樹 —— 極簡、快速開機的根檔案系統。"
+[repoOpenwrt]
+other = "全志 A733 的 OpenWrt 目標定義與網路協定堆疊 —— 路由器與閘道器方案。"
+[repoYocto]
+other = "OpenTina 硬體的 Yocto Project BSP 層 —— 工業級與企業級 Linux。"
+[repoDebian]
+other = "Debian 根檔案系統建立腳本與映像建置器 —— 穩定的桌面與伺服器環境。"
+[repoUbuntu]
+other = "Ubuntu 根檔案系統產生腳本與板級支援 —— 現代桌面與 AI 邊緣評估。"
+[tagMinimal]
+other = "極簡"
+[tagRouter]
+other = "路由"
+[startTitle]
+other = "快速入門"
+[startLead]
+other = "四條命令，從全新機器到可開機映像。"
+[step1Title]
+other = "複製建置倉庫"
+[step1Desc]
+other = "頂層編排倉庫驅動其餘所有倉庫。"
+[step2Title]
+other = "初始化並取得原始碼"
+[step2Desc]
+other = "透過預設 manifest 下載所有需要的原始碼樹。"
+[step3Title]
+other = "查看支援的目標"
+[step3Desc]
+other = "列出所有支援的開發板及可用的作業系統發行版。"
+[step4Title]
+other = "建置映像"
+[step4Desc]
+other = "為所選開發板編譯完整的映像鏈。"
+[startMore]
+other = "詳細的使用說明、建置選項與進階設定，請參閱"
+[communityTitle]
+other = "社群與支援"
+[communityLead]
+other = "OpenTina 在公開環境中開發 —— 程式碼、問題、路線圖全部在 GitHub 上進行。"
+[cardIssuesTitle]
+other = "提交問題"
+[cardIssuesDesc]
+other = "發現 bug 或有疑問？前往 opentina 倉庫提交 issue。"
+[cardDocsTitle]
+other = "文件"
+[cardDocsDesc]
+other = "深入的指南與技術文件位於 docs 倉庫。"
+[cardAllReposTitle]
+other = "全部倉庫"
+[cardAllReposDesc]
+other = "瀏覽該組織維護的完整專案清單。"
+[about]
+other = "關於"
+[docs]
+other = "文件"

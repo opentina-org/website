@@ -1,0 +1,158 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">{{ i18n "heroEyebrow" }}</span>
+    <h1>{{ i18n "heroTitle" }}</h1>
+    <p class="tagline">{{ i18n "heroTagline" }}</p>
+    <div>
+      <span class="chip">Allwinner A733</span>
+      <span class="chip">Linux 6.18 LTS</span>
+      <span class="chip">RISC-V</span>
+      <span class="chip">{{ i18n "chipMultiOS" }}</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn primary" href="{{ "docs/" | relLangURL }}">{{ i18n "ctaDocs" }}</a>
+      <a class="btn" href="https://github.com/opentina-org/build">{{ i18n "ctaRepo" }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>{{ i18n "reposTitle" }}</h2>
+    <p class="section-lead">{{ i18n "reposLead" }}</p>
+
+    <h3>{{ i18n "groupBSP" }}</h3>
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/build">build</a></h3>
+        <p>{{ i18n "repoBuild" }}</p>
+        <div class="card-tags"><span class="tag">./build.sh</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/trusted-firmware-a">trusted-firmware-a</a></h3>
+        <p>{{ i18n "repoTfa" }}</p>
+        <div class="card-tags"><span class="tag">ATF</span><span class="tag">PSCI</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/optee_os">optee_os</a></h3>
+        <p>{{ i18n "repoOpTee" }}</p>
+        <div class="card-tags"><span class="tag">TEE</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/u-boot">u-boot</a></h3>
+        <p>{{ i18n "repoUboot" }}</p>
+        <div class="card-tags"><span class="tag">SPL</span><span class="tag">Fastboot</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/linux">linux</a></h3>
+        <p>{{ i18n "repoLinux" }}</p>
+        <div class="card-tags"><span class="tag">Linux 6.18 LTS</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/awbin">awbin</a></h3>
+        <p>{{ i18n "repoAwbin" }}</p>
+        <div class="card-tags"><span class="tag">Firmware</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/xfel">xfel</a></h3>
+        <p>{{ i18n "repoXfel" }}</p>
+        <div class="card-tags"><span class="tag">FEL</span><span class="tag">USB</span></div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:34px">{{ i18n "groupDistro" }}</h3>
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/buildroot">buildroot</a></h3>
+        <p>{{ i18n "repoBuildroot" }}</p>
+        <div class="card-tags"><span class="tag">{{ i18n "tagMinimal" }}</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/openwrt">openwrt</a></h3>
+        <p>{{ i18n "repoOpenwrt" }}</p>
+        <div class="card-tags"><span class="tag">{{ i18n "tagRouter" }}</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/meta-opentina">meta-opentina</a></h3>
+        <p>{{ i18n "repoYocto" }}</p>
+        <div class="card-tags"><span class="tag">Yocto</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/debian">debian</a></h3>
+        <p>{{ i18n "repoDebian" }}</p>
+        <div class="card-tags"><span class="tag">Debian</span></div>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/ubuntu">ubuntu</a></h3>
+        <p>{{ i18n "repoUbuntu" }}</p>
+        <div class="card-tags"><span class="tag">Ubuntu</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>{{ i18n "startTitle" }}</h2>
+    <p class="section-lead">{{ i18n "startLead" }}</p>
+    <div class="steps">
+      <div class="step">
+        <div class="num"></div>
+        <div style="min-width:0">
+          <h3>{{ i18n "step1Title" }}</h3>
+          <p>{{ i18n "step1Desc" }}</p>
+          <pre><code>git clone https://github.com/opentina-org/build.git
+cd build</code></pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num"></div>
+        <div style="min-width:0">
+          <h3>{{ i18n "step2Title" }}</h3>
+          <p>{{ i18n "step2Desc" }}</p>
+          <pre><code>./build.sh init</code></pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num"></div>
+        <div style="min-width:0">
+          <h3>{{ i18n "step3Title" }}</h3>
+          <p>{{ i18n "step3Desc" }}</p>
+          <pre><code>./build.sh targets</code></pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num"></div>
+        <div style="min-width:0">
+          <h3>{{ i18n "step4Title" }}</h3>
+          <p>{{ i18n "step4Desc" }}</p>
+          <pre><code>./build.sh &lt;BOARD_NAME&gt; build</code></pre>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:22px">{{ i18n "startMore" }} <a href="https://github.com/opentina-org/build/blob/tina-dev/README.md">build/README.md</a>.</p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>{{ i18n "communityTitle" }}</h2>
+    <p class="section-lead">{{ i18n "communityLead" }}</p>
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/opentina/issues">{{ i18n "cardIssuesTitle" }}</a></h3>
+        <p>{{ i18n "cardIssuesDesc" }}</p>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/opentina-org/docs">{{ i18n "cardDocsTitle" }}</a></h3>
+        <p>{{ i18n "cardDocsDesc" }}</p>
+      </div>
+      <div class="card">
+        <h3><a href="https://github.com/orgs/opentina-org/repositories">{{ i18n "cardAllReposTitle" }}</a></h3>
+        <p>{{ i18n "cardAllReposDesc" }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

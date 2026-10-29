@@ -1,0 +1,108 @@
+[copy]
+other = "Copiar"
+[copied]
+other = "Copiado"
+[error404]
+other = "Página no encontrada"
+[notFoundText]
+other = "La página que busca no existe o se ha movido."
+[backHome]
+other = "Volver al inicio"
+[issues]
+other = "Incidencias"
+[footerTagline]
+other = "Software de sistema de código abierto para la plataforma Allwinner A733."
+[footerLicense]
+other = "El contenido de este sitio está bajo licencia CC BY 4.0."
+[footerSource]
+other = "Código fuente del sitio"
+[heroEyebrow]
+other = "Comunidad de código abierto"
+[heroTitle]
+other = "Software de sistema para Allwinner A733"
+[heroTagline]
+other = "OpenTina proporciona software de sistema de bajo nivel y soporte de distribuciones multi-OS para la plataforma de chips Allwinner A733: kernel de calidad upstream, cargadores de arranque, firmware de confianza y distribuciones listas para usar."
+[chipMultiOS]
+other = "Multi-SO"
+[ctaDocs]
+other = "Empezar"
+[ctaRepo]
+other = "Organización en GitHub"
+[reposTitle]
+other = "Dónde vive cada recurso"
+[reposLead]
+other = "Todo el desarrollo se realiza en GitHub bajo la organización opentina-org. Aquí está el mapa de los repositorios principales."
+[groupBSP]
+other = "Nivel bajo y BSP principal"
+[groupDistro]
+other = "Sistemas de compilación y distribuciones de SO"
+[repoBuild]
+other = "Herramientas de orquestación de nivel superior, scripts y configuraciones de compilación: el punto de entrada único."
+[repoTfa]
+other = "Port de ARM Trusted Firmware (ATF) para Allwinner A733 — PSCI y Secure World."
+[repoOpTee]
+other = "Lado de confianza del entorno de ejecución OP-TEE para Allwinner A733."
+[repoUboot]
+other = "Cargador de arranque U-Boot adaptado a las plataformas Allwinner A733 — SPL, Fastboot, bootflow."
+[repoLinux]
+other = "Árbol del kernel Linux con device trees integrados para Allwinner A733 — rama Linux 6.18 LTS."
+[repoAwbin]
+other = "Binarios y blobs de firmware relacionados con Allwinner A733."
+[repoXfel]
+other = "Herramientas FEL diminutas para SoC Allwinner — comunicación USB en modo FEL."
+[repoBuildroot]
+other = "Árbol Buildroot preconfigurado para Allwinner A733 — rootfs mínimo y de arranque rápido."
+[repoOpenwrt]
+other = "Definiciones de destino y pila de red de OpenWrt para Allwinner A733 — soluciones de router y pasarela."
+[repoYocto]
+other = "Capa BSP del Yocto Project para el hardware de OpenTina — Linux industrial y empresarial."
+[repoDebian]
+other = "Scripts de creación de rootfs y constructor de imágenes de Debian — entorno estable de escritorio y servidor."
+[repoUbuntu]
+other = "Scripts de generación de rootfs y habilitación de placas de Ubuntu — escritorio moderno y evaluación de AI edge."
+[tagMinimal]
+other = "Mínimo"
+[tagRouter]
+other = "Router"
+[startTitle]
+other = "Inicio rápido"
+[startLead]
+other = "Cuatro comandos, desde una máquina nueva hasta una imagen arrancable."
+[step1Title]
+other = "Clonar el repositorio de compilación"
+[step1Desc]
+other = "El repositorio de orquestación de nivel superior controla todo lo demás."
+[step2Title]
+other = "Inicializar y obtener el código fuente"
+[step2Desc]
+other = "Descarga todos los árboles de código necesarios mediante el manifiesto predeterminado."
+[step3Title]
+other = "Listar los destinos compatibles"
+[step3Desc]
+other = "Muestra todas las placas compatibles junto con las distribuciones de SO disponibles."
+[step4Title]
+other = "Compilar una imagen"
+[step4Desc]
+other = "Compila la cadena completa de imágenes para la placa elegida."
+[startMore]
+other = "Para instrucciones detalladas, opciones de compilación y configuración avanzada, consulte"
+[communityTitle]
+other = "Comunidad y soporte"
+[communityLead]
+other = "OpenTina se desarrolla en abierto: código, incidencias y hoja de ruta, todo en GitHub."
+[cardIssuesTitle]
+other = "Informar de un problema"
+[cardIssuesDesc]
+other = "¿Ha encontrado un error o tiene una pregunta? Abra una incidencia en el repositorio opentina."
+[cardDocsTitle]
+other = "Documentación"
+[cardDocsDesc]
+other = "Guías detallados y documentación técnica en el repositorio docs."
+[cardAllReposTitle]
+other = "Todos los repositorios"
+[cardAllReposDesc]
+other = "Explore la lista completa de proyectos mantenidos por la organización."
+[about]
+other = "Acerca de"
+[docs]
+other = "Documentación"

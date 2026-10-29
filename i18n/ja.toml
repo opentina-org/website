@@ -1,0 +1,108 @@
+[copy]
+other = "コピー"
+[copied]
+other = "コピーしました"
+[error404]
+other = "ページが見つかりません"
+[notFoundText]
+other = "お探しのページは存在しないか、移動しました。"
+[backHome]
+other = "ホームに戻る"
+[issues]
+other = "イシュー"
+[footerTagline]
+other = "オールウィナー A733 プラットフォーム向けのオープンソース・システムソフトウェアコミュニティ。"
+[footerLicense]
+other = "サイトのコンテンツは CC BY 4.0 でライセンスされています。"
+[footerSource]
+other = "サイトのソースコード"
+[heroEyebrow]
+other = "オープンソースコミュニティ"
+[heroTitle]
+other = "オールウィナー A733 のためのシステムソフトウェア"
+[heroTagline]
+other = "OpenTina は、オールウィナー A733 チッププラットフォーム向けの低レベル・システムソフトウェアとマルチ OS ディストリビューション対応を提供します。上流品質のカーネル、ブートローダー、トラステッドファームウェア、そしてすぐに使えるディストリビューションまで。"
+[chipMultiOS]
+other = "マルチ OS 対応"
+[ctaDocs]
+other = "クイックスタート"
+[ctaRepo]
+other = "GitHub 組織"
+[reposTitle]
+other = "リソースの場所"
+[reposLead]
+other = "すべての開発は GitHub の opentina-org 組織で行われています。主要リポジトリは次のとおりです。"
+[groupBSP]
+other = "低レベル・コア BSP"
+[groupDistro]
+other = "ビルドシステムと OS ディストリビューション"
+[repoBuild]
+other = "トップレベルのオーケストレーションツール、ビルドスクリプト、設定 —— ワンクリックのビルドエントリポイント。"
+[repoTfa]
+other = "オールウィナー A733 向け ARM Trusted Firmware（ATF）ポート —— PSCI と Secure World。"
+[repoOpTee]
+other = "オールウィナー A733 における OP-TEE 実行環境のトラステッドサイド実装。"
+[repoUboot]
+other = "オールウィナー A733 プラットフォーム向けに調整された U-Boot —— SPL、Fastboot、ブートフロー。"
+[repoLinux]
+other = "オールウィナー A733 の組み込みデバイスツリーを含む Linux カーネルツリー —— Linux 6.18 LTS ブランチ。"
+[repoAwbin]
+other = "オールウィナー A733 関連のバイナリとファームウェア blob。"
+[repoXfel]
+other = "オールウィナー SoC 向けの小型 FEL ツール —— USB 経由の FEL モード通信。"
+[repoBuildroot]
+other = "オールウィナー A733 向けに事前設定された Buildroot ツリー —— ミニマルで高速に起動するルートファイルシステム。"
+[repoOpenwrt]
+other = "オールウィナー A733 向け OpenWrt ターゲット定義とネットワークスタック —— ルーター／ゲートウェイソリューション。"
+[repoYocto]
+other = "OpenTina ハードウェア向け Yocto Project BSP レイヤー —— エンタープライズ向け Linux。"
+[repoDebian]
+other = "Debian ルートファイルシステム作成スクリプトとイメージビルダー —— 安定したデスクトップ／サーバー環境。"
+[repoUbuntu]
+other = "Ubuntu ルートファイルシステム生成スクリプトとボード有効化 —— モダンなデスクトップと AI エッジ評価。"
+[tagMinimal]
+other = "ミニマル"
+[tagRouter]
+other = "ルーター"
+[startTitle]
+other = "クイックスタート"
+[startLead]
+other = "4 つのコマンドで、新規マシンから起動可能なイメージへ。"
+[step1Title]
+other = "ビルドリポジトリをクローン"
+[step1Desc]
+other = "トップレベルのオーケストレーションリポジトリが他のすべてを駆動します。"
+[step2Title]
+other = "初期化とソース取得"
+[step2Desc]
+other = "デフォルトマニフェストを使用して必要なすべてのソースツリーを取得します。"
+[step3Title]
+other = "対応ターゲットの一覧"
+[step3Desc]
+other = "サポートされているボードと利用可能なディストリビューションを表示します。"
+[step4Title]
+other = "イメージのビルド"
+[step4Desc]
+other = "選択したボードの完全なイメージチェーンをビルドします。"
+[startMore]
+other = "詳細な手順、ビルドオプション、高度な設定については、次を参照してください："
+[communityTitle]
+other = "コミュニティとサポート"
+[communityLead]
+other = "OpenTina はオープンに開発されています。コード・イシュー・ロードマップのすべてが GitHub 上で行われます。"
+[cardIssuesTitle]
+other = "イシューを報告"
+[cardIssuesDesc]
+other = "バグを見つけたか質問がありますか？opentina リポジトリでイシューを開いてください。"
+[cardDocsTitle]
+other = "ドキュメント"
+[cardDocsDesc]
+other = "詳細なガイドと技術ドキュメントは docs リポジトリにあります。"
+[cardAllReposTitle]
+other = "すべてのリポジトリ"
+[cardAllReposDesc]
+other = "組織がメンテナンスするすべてのプロジェクトをご覧ください。"
+[about]
+other = "概要"
+[docs]
+other = "ドキュメント"

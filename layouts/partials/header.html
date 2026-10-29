@@ -1,0 +1,27 @@
+{{ $home := .Site.GetPage "/" }}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "" | relLangURL }}">
+      <span class="mark" aria-hidden="true"></span>
+      <span>{{ .Site.Title }}</span>
+    </a>
+
+    <nav class="site-nav" id="siteNav">
+      <a class="nav-link" href="{{ "about/" | relLangURL }}">{{ i18n "about" }}</a>
+      <a class="nav-link" href="{{ "docs/" | relLangURL }}">{{ i18n "docs" }}</a>
+      <a class="nav-link" href="https://github.com/opentina-org">GitHub</a>
+      <details class="lang-switch">
+        <summary>{{ .Site.Language.LanguageName }} ▾</summary>
+        <div class="lang-menu">
+          {{ range $home.AllTranslations }}
+          <a class="{{ if eq $.Language.LanguageCode .Language.LanguageCode }}current{{ end }}"
+             hreflang="{{ .Language.LanguageCode }}" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        </div>
+      </details>
+      <button class="icon-btn" id="themeToggle" title="Theme" aria-label="Toggle theme">☾</button>
+    </nav>
+
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+  </div>
+</header>

@@ -1,0 +1,71 @@
+baseURL = "https://opentina.org/"
+languageCode = "en-us"
+title = "OpenTina"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "404"]
+
+[pagination]
+  pagerSize = 10000
+taxonomies = {}
+summaryLength = 30
+timeZone = "UTC"
+
+[params]
+  description = "OpenTina is an open-source community providing low-level system software and multi-OS distribution support for the Allwinner A733 chip platform."
+  github = "https://github.com/opentina-org"
+  defaultTheme = "auto" # auto | light | dark
+
+# Default language: English, clean URLs like /docs/, /community/
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en"
+  title = "OpenTina"
+  weight = 1
+[languages.zh]
+  languageName = "简体中文"
+  languageCode = "zh-Hans"
+  title = "OpenTina"
+  weight = 2
+[languages.zh-tw]
+  languageName = "繁體中文"
+  languageCode = "zh-Hant"
+  title = "OpenTina"
+  weight = 3
+[languages.ja]
+  languageName = "日本語"
+  languageCode = "ja"
+  title = "OpenTina"
+  weight = 4
+[languages.ru]
+  languageName = "Русский"
+  languageCode = "ru"
+  title = "OpenTina"
+  weight = 5
+[languages.ko]
+  languageName = "한국어"
+  languageCode = "ko"
+  title = "OpenTina"
+  weight = 6
+[languages.de]
+  languageName = "Deutsch"
+  languageCode = "de"
+  title = "OpenTina"
+  weight = 7
+[languages.fr]
+  languageName = "Français"
+  languageCode = "fr"
+  title = "OpenTina"
+  weight = 8
+[languages.es]
+  languageName = "Español"
+  languageCode = "es"
+  title = "OpenTina"
+  weight = 9
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

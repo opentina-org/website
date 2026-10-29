@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">{{ i18n "error404" }}</span>
+    <h1>404</h1>
+    <p class="tagline">{{ i18n "notFoundText" }}</p>
+    <div class="cta-row">
+      <a class="btn primary" href="{{ "" | relLangURL }}">{{ i18n "backHome" }}</a>
+      <a class="btn" href="https://github.com/opentina-org">{{ i18n "ctaRepo" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

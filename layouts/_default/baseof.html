@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.LanguageCode "en" }}" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  {{ if .IsHome }}<link rel="alternate" hreflang="x-default" href="{{ (site.GetPage "/").Permalink }}">{{ end }}
+  {{ range .Translations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("opentina-theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+  {{ partial "header.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  <button class="back-top" id="backTop" title="Top" aria-label="Back to top">↑</button>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById("themeToggle");
+      if (btn) btn.addEventListener("click", function () {
+        var cur = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+        var next = cur === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("opentina-theme", next); } catch (e) {}
+        btn.textContent = next === "dark" ? "☀" : "☾";
+      });
+      var mt = document.getElementById("menuToggle");
+      var nav = document.getElementById("siteNav");
+      if (mt && nav) mt.addEventListener("click", function () { nav.classList.toggle("open"); });
+
+      var top = document.getElementById("backTop");
+      if (top) {
+        window.addEventListener("scroll", function () {
+          top.classList.toggle("show", window.scrollY > 500);
+        }, { passive: true });
+        top.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+      }
+
+      document.querySelectorAll("pre").forEach(function (pre) {
+        var code = pre.querySelector("code");
+        if (!code) return;
+        var b = document.createElement("button");
+        b.className = "copy-btn";
+        b.textContent = "{{ i18n "copy" | default "Copy" }}";
+        b.addEventListener("click", function () {
+          navigator.clipboard.writeText(code.innerText).then(function () {
+            b.textContent = "{{ i18n "copied" | default "Copied" }}";
+            setTimeout(function () { b.textContent = "{{ i18n "copy" | default "Copy" }}"; }, 1600);
+          });
+        });
+        pre.appendChild(b);
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <strong>{{ site.Title }}</strong><br>
+        {{ i18n "footerTagline" }}
+      </div>
+      <nav class="footer-links">
+        <a href="https://github.com/opentina-org">GitHub</a>
+        <a href="https://github.com/opentina-org/build">build</a>
+        <a href="https://github.com/opentina-org/docs">docs</a>
+        <a href="https://github.com/opentina-org/opentina/issues">{{ i18n "issues" }}</a>
+        <a href="{{ "index.xml" | relLangURL }}">RSS</a>
+      </nav>
+    </div>
+    <div class="footer-note">
+      {{ i18n "footerLicense" }}
+      <a href="https://github.com/opentina-org/website">{{ i18n "footerSource" }}</a>
+    </div>
+  </div>
+</footer>

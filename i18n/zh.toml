@@ -1,0 +1,108 @@
+[copy]
+other = "复制"
+[copied]
+other = "已复制"
+[error404]
+other = "页面未找到"
+[notFoundText]
+other = "您访问的页面不存在或已移动。"
+[backHome]
+other = "返回首页"
+[issues]
+other = "问题反馈"
+[footerTagline]
+other = "全志 A733 平台的开源系统软件社区。"
+[footerLicense]
+other = "网站内容采用 CC BY 4.0 许可。"
+[footerSource]
+other = "网站源码"
+[heroEyebrow]
+other = "开源社区"
+[heroTitle]
+other = "全志 A733 的系统软件"
+[heroTagline]
+other = "OpenTina 为全志 A733 芯片平台提供底层系统软件与多操作系统发行版支持：上游级内核、引导加载程序、可信固件，以及开箱即用的发行版。"
+[chipMultiOS]
+other = "多系统支持"
+[ctaDocs]
+other = "快速上手"
+[ctaRepo]
+other = "GitHub 组织"
+[reposTitle]
+other = "资源都在哪里"
+[reposLead]
+other = "所有开发都在 GitHub 的 opentina-org 组织下进行。以下是核心仓库一览。"
+[groupBSP]
+other = "底层与核心 BSP"
+[groupDistro]
+other = "构建系统与操作系统发行版"
+[repoBuild]
+other = "顶层编排工具、构建脚本与配置 —— 一键构建入口。"
+[repoTfa]
+other = "全志 A733 的 ARM 可信固件（ATF）移植 —— PSCI 与安全世界。"
+[repoOpTee]
+other = "全志 A733 上 OP-TEE 可信执行环境的可信侧实现。"
+[repoUboot]
+other = "面向全志 A733 平台定制的 U-Boot 引导加载程序 —— SPL、Fastboot、启动流程。"
+[repoLinux]
+other = "包含全志 A733 嵌入式设备树的 Linux 内核源码树 —— Linux 6.18 LTS 分支。"
+[repoAwbin]
+other = "全志 A733 相关的二进制文件与固件 blob。"
+[repoXfel]
+other = "全志 SoC 的轻量 FEL 工具 —— 通过 USB FEL 模式通信。"
+[repoBuildroot]
+other = "为全志 A733 预配置的 Buildroot 源码树 —— 极简、快速启动的根文件系统。"
+[repoOpenwrt]
+other = "全志 A733 的 OpenWrt 目标定义与网络协议栈 —— 路由器与网关方案。"
+[repoYocto]
+other = "OpenTina 硬件的 Yocto Project BSP 层 —— 工业级与企业级 Linux。"
+[repoDebian]
+other = "Debian 根文件系统创建脚本与镜像构建器 —— 稳定的桌面与服务器环境。"
+[repoUbuntu]
+other = "Ubuntu 根文件系统生成脚本与板级支持 —— 现代桌面与 AI 边缘评估。"
+[tagMinimal]
+other = "极简"
+[tagRouter]
+other = "路由"
+[startTitle]
+other = "快速上手"
+[startLead]
+other = "四条命令，从全新机器到可启动镜像。"
+[step1Title]
+other = "克隆构建仓库"
+[step1Desc]
+other = "顶层编排仓库驱动其余所有仓库。"
+[step2Title]
+other = "初始化并拉取源码"
+[step2Desc]
+other = "通过默认 manifest 下载所有需要的源码树。"
+[step3Title]
+other = "查看支持的目标"
+[step3Desc]
+other = "列出所有受支持的开发板及可用的操作系统发行版。"
+[step4Title]
+other = "构建镜像"
+[step4Desc]
+other = "为所选开发板编译完整的镜像链。"
+[startMore]
+other = "详细的使用说明、构建选项与高级配置，请参阅"
+[communityTitle]
+other = "社区与支持"
+[communityLead]
+other = "OpenTina 在公开环境中开发 —— 代码、问题、路线图全部在 GitHub 上进行。"
+[cardIssuesTitle]
+other = "提交问题"
+[cardIssuesDesc]
+other = "发现 bug 或有疑问？前往 opentina 仓库提交 issue。"
+[cardDocsTitle]
+other = "文档"
+[cardDocsDesc]
+other = "深入的指南与技术文档位于 docs 仓库。"
+[cardAllReposTitle]
+other = "全部仓库"
+[cardAllReposDesc]
+other = "浏览该组织维护的完整项目列表。"
+[about]
+other = "关于"
+[docs]
+other = "文档"

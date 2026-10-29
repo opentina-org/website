@@ -1,0 +1,108 @@
+[copy]
+other = "Копировать"
+[copied]
+other = "Скопировано"
+[error404]
+other = "Страница не найдена"
+[notFoundText]
+other = "Страница, которую вы ищете, не существует или была перемещена."
+[backHome]
+other = "На главную"
+[issues]
+other = "Проблемы"
+[footerTagline]
+other = "Открытое системное ПО для платформы Allwinner A733."
+[footerLicense]
+other = "Контент сайта лицензирован по CC BY 4.0."
+[footerSource]
+other = "Исходный код сайта"
+[heroEyebrow]
+other = "Открытое сообщество"
+[heroTitle]
+other = "Системное ПО для Allwinner A733"
+[heroTagline]
+other = "OpenTina предоставляет низкоуровневое системное ПО и поддержку мульти-ОС дистрибутивов для чип-платформы Allwinner A733: ядро уровня апстрима, загрузчики, доверенная прошивка и готовые к использованию дистрибутивы."
+[chipMultiOS]
+other = "Мульти-ОС"
+[ctaDocs]
+other = "Начать"
+[ctaRepo]
+other = "Организация GitHub"
+[reposTitle]
+other = "Где что находится"
+[reposLead]
+other = "Вся разработка ведётся на GitHub в организации opentina-org. Ниже — карта основных репозиториев."
+[groupBSP]
+other = "Низкоуровневый стек и BSP"
+[groupDistro]
+other = "Системы сборки и дистрибутивы ОС"
+[repoBuild]
+other = "Верхнеуровневые инструменты оркестрации, скрипты сборки и конфигурации — единая точка входа в сборку."
+[repoTfa]
+other = "Порт ARM Trusted Firmware (ATF) для Allwinner A733 — PSCI и Secure World."
+[repoOpTee]
+other = "Доверенная часть среды выполнения OP-TEE для Allwinner A733."
+[repoUboot]
+other = "Загрузчик U-Boot для платформ Allwinner A733 — SPL, Fastboot, процесс загрузки."
+[repoLinux]
+other = "Дерево ядра Linux с встроенными device tree для Allwinner A733 — ветка Linux 6.18 LTS."
+[repoAwbin]
+other = "Бинарные файлы и компоненты прошивки для Allwinner A733."
+[repoXfel]
+other = "Компактные FEL-инструменты для SoC Allwinner — связь по USB в режиме FEL."
+[repoBuildroot]
+other = "Преднастроенное для Allwinner A733 дерево Buildroot — минимальная rootfs с быстрой загрузкой."
+[repoOpenwrt]
+other = "Определения целей и сетевой стек OpenWrt для Allwinner A733 — решения для роутеров и шлюзов."
+[repoYocto]
+other = "Слой BSP Yocto Project для оборудования OpenTina — промышленный и корпоративный Linux."
+[repoDebian]
+other = "Скрипты создания rootfs и сборщик образов Debian — стабильное окружение для рабочей станции и сервера."
+[repoUbuntu]
+other = "Скрипты генерации rootfs и поддержка плат на Ubuntu — современный рабочий стол и AI edge-оценка."
+[tagMinimal]
+other = "Минимальный"
+[tagRouter]
+other = "Роутер"
+[startTitle]
+other = "Быстрый старт"
+[startLead]
+other = "Четыре команды от чистой машины до загружаемого образа."
+[step1Title]
+other = "Клонируйте репозиторий сборки"
+[step1Desc]
+other = "Верхнеуровневый репозиторий оркестрации управляет всем остальным."
+[step2Title]
+other = "Инициализация и загрузка исходников"
+[step2Desc]
+other = "Загружает все необходимые деревья исходного кода по манифесту по умолчанию."
+[step3Title]
+other = "Список поддерживаемых целей"
+[step3Desc]
+other = "Показывает все поддерживаемые платформы и доступные дистрибутивы ОС."
+[step4Title]
+other = "Сборка образа"
+[step4Desc]
+other = "Собирает полную цепочку образов для выбранной платформы."
+[startMore]
+other = "Подробные инструкции, параметры сборки и расширенная конфигурация — в"
+[communityTitle]
+other = "Сообщество и поддержка"
+[communityLead]
+other = "OpenTina развивается открыто: код, проблемы и дорожная карта — всё на GitHub."
+[cardIssuesTitle]
+other = "Сообщить о проблеме"
+[cardIssuesDesc]
+other = "Нашли баг или есть вопрос? Создайте issue в репозитории opentina."
+[cardDocsTitle]
+other = "Документация"
+[cardDocsDesc]
+other = "Подробные руководства и техническая документация — в репозитории docs."
+[cardAllReposTitle]
+other = "Все репозитории"
+[cardAllReposDesc]
+other = "Полный список проектов, которые поддерживает организация."
+[about]
+other = "О проекте"
+[docs]
+other = "Документация"

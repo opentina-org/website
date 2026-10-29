@@ -1,0 +1,4 @@
+---
+title: ホーム
+layout: single
+---
