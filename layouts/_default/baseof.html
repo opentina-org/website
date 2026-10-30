@@ -35,12 +35,16 @@
     (function () {
       var root = document.documentElement;
       var btn = document.getElementById("themeToggle");
+      function render() {
+        if (btn) btn.textContent = root.getAttribute("data-theme") === "dark" ? "☀" : "☾";
+      }
+      render();
       if (btn) btn.addEventListener("click", function () {
         var cur = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
         var next = cur === "dark" ? "light" : "dark";
         root.setAttribute("data-theme", next);
         try { localStorage.setItem("opentina-theme", next); } catch (e) {}
-        btn.textContent = next === "dark" ? "☀" : "☾";
+        render();
       });
       var mt = document.getElementById("menuToggle");
       var nav = document.getElementById("siteNav");
