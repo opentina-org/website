@@ -1,4 +1,3 @@
 ---
 title: ホーム
-layout: single
 ---

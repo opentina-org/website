@@ -1,4 +1,3 @@
 ---
 title: Главная
-layout: single
 ---

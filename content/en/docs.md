@@ -1,6 +1,8 @@
 ---
 title: Introduction
 description: What OpenTina is, and how the project is organized.
+aliases:
+  - "/en/docs/"
 ---
 
 OpenTina is an open-source community dedicated to providing low-level system software and multi-OS distribution support for the **Allwinner A733** chip platform.

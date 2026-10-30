@@ -1,4 +1,5 @@
-{{ $home := .Site.GetPage "/" }}
+{{ $page := . }}
+{{ $curLang := .Site.Language.Lang }}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{{ "" | relLangURL }}">
@@ -13,9 +14,15 @@
       <details class="lang-switch">
         <summary>{{ .Site.Language.LanguageName }} ▾</summary>
         <div class="lang-menu">
-          {{ range $home.AllTranslations }}
-          <a class="{{ if eq $.Language.LanguageCode .Language.LanguageCode }}current{{ end }}"
-             hreflang="{{ .Language.LanguageCode }}" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+          {{/* 每种语言都列一条：优先指向当前页面在该语言下的译文，缺译文时回退到该语言首页 */}}
+          {{ range .Site.Home.AllTranslations }}
+          {{ $lang := .Language.Lang }}
+          {{ $target := .RelPermalink }}
+          {{ range $page.AllTranslations }}
+            {{ if eq .Language.Lang $lang }}{{ $target = .RelPermalink }}{{ end }}
+          {{ end }}
+          <a class="{{ if eq $curLang $lang }}current{{ end }}"
+             hreflang="{{ .Language.LanguageCode }}" href="{{ $target }}">{{ .Language.LanguageName }}</a>
           {{ end }}
         </div>
       </details>
