@@ -63,7 +63,7 @@ other = "Scripts de generación de rootfs y habilitación de placas de Ubuntu �
 [tagMinimal]
 other = "Mínimo"
 [tagRouter]
-other = "Router"
+other = "Enrutador"
 [startTitle]
 other = "Inicio rápido"
 [startLead]

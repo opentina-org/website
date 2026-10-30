@@ -1,6 +1,8 @@
 ---
 title: About
 description: Mission, organization and governance of the OpenTina project.
+aliases:
+  - "/en/about/"
 ---
 
 ## Mission

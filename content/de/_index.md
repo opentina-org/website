@@ -1,4 +1,3 @@
 ---
 title: Startseite
-layout: single
 ---

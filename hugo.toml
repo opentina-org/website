@@ -2,7 +2,7 @@ baseURL = "https://opentina.org/"
 languageCode = "en-us"
 title = "OpenTina"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "term", "404"]
+disableKinds = ["taxonomy", "term"]
 
 [pagination]
   pagerSize = 10000
@@ -22,48 +22,75 @@ defaultContentLanguageInSubdir = false
 [languages.en]
   languageName = "English"
   languageCode = "en"
+  contentDir = "content/en"
   title = "OpenTina"
   weight = 1
+  [languages.en.params]
+    description = "OpenTina is an open-source community providing low-level system software and multi-OS distribution support for the Allwinner A733 chip platform."
 [languages.zh]
   languageName = "简体中文"
   languageCode = "zh-Hans"
+  contentDir = "content/zh"
   title = "OpenTina"
   weight = 2
+  [languages.zh.params]
+    description = "OpenTina 是一个开源社区，为全志（Allwinner）A733 芯片平台提供底层系统软件与多操作系统发行版支持。"
 [languages.zh-tw]
   languageName = "繁體中文"
   languageCode = "zh-Hant"
+  contentDir = "content/zh-tw"
   title = "OpenTina"
   weight = 3
+  [languages.zh-tw.params]
+    description = "OpenTina 是一個開源社群，為全志（Allwinner）A733 晶片平台提供底層系統軟體與多作業系統發行版支援。"
 [languages.ja]
   languageName = "日本語"
   languageCode = "ja"
+  contentDir = "content/ja"
   title = "OpenTina"
   weight = 4
+  [languages.ja.params]
+    description = "OpenTina は、Allwinner A733 チッププラットフォーム向けの低レベルシステムソフトウェアとマルチ OS ディストリビューションのサポートを提供するオープンソースコミュニティです。"
 [languages.ru]
   languageName = "Русский"
   languageCode = "ru"
+  contentDir = "content/ru"
   title = "OpenTina"
   weight = 5
+  [languages.ru.params]
+    description = "OpenTina — открытое сообщество, которое предоставляет системное программное обеспечение низкого уровня и поддержку множества дистрибутивов ОС для платформы Allwinner A733."
 [languages.ko]
   languageName = "한국어"
   languageCode = "ko"
+  contentDir = "content/ko"
   title = "OpenTina"
   weight = 6
+  [languages.ko.params]
+    description = "OpenTina는 Allwinner A733 칩 플랫폼을 위한 저수준 시스템 소프트웨어와 멀티 OS 배포판 지원을 제공하는 오픈소스 커뮤니티입니다."
 [languages.de]
   languageName = "Deutsch"
   languageCode = "de"
+  contentDir = "content/de"
   title = "OpenTina"
   weight = 7
+  [languages.de.params]
+    description = "OpenTina ist eine Open-Source-Community, die systemnahe Software und Unterstützung für mehrere Betriebssystem-Distributionen für die Allwinner-A733-Plattform bereitstellt."
 [languages.fr]
   languageName = "Français"
   languageCode = "fr"
+  contentDir = "content/fr"
   title = "OpenTina"
   weight = 8
+  [languages.fr.params]
+    description = "OpenTina est une communauté open source qui fournit des logiciels système bas niveau et la prise en charge de plusieurs distributions pour la plateforme Allwinner A733."
 [languages.es]
   languageName = "Español"
   languageCode = "es"
+  contentDir = "content/es"
   title = "OpenTina"
   weight = 9
+  [languages.es.params]
+    description = "OpenTina es una comunidad de código abierto que proporciona software de sistema de bajo nivel y soporte para múltiples distribuciones de SO en la plataforma Allwinner A733."
 
 [markup]
   [markup.goldmark]

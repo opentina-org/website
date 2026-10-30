@@ -1,9 +1,0 @@
-{{/* Emit aliases so non-default languages also exist under /{lang}/… at the root.
-     Home pages are excluded: Hugo already publishes those under defaultContentLanguageInSubdir. */}}
-{{ range where .Site.RegularPages "Kind" "page" }}
-{{ range .Translations }}
-{{ if and (ne .Language.Lang site.Language.Lang) (ne .Language.Lang "en") }}
-<alias new="{{ .RelPermalink }}">{{ .RelPermalink }}</alias>
-{{ end }}
-{{ end }}
-{{ end }}

@@ -7,8 +7,16 @@
   <meta name="description" content="{{ .Description | default site.Params.description }}">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
-  {{ if .IsHome }}<link rel="alternate" hreflang="x-default" href="{{ (site.GetPage "/").Permalink }}">{{ end }}
-  {{ range .Translations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+  {{ $defaultLang := (index site.Languages 0).Lang }}{{/* languages 按 weight 排序，第一条即默认语言 */}}
+  {{ $xdefault := "" }}
+  {{ range .AllTranslations }}
+  {{ if eq .Language.Lang $defaultLang }}{{ $xdefault = .Permalink }}{{ end }}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ if not $xdefault }}
+  {{ range .Site.Home.AllTranslations }}{{ if eq .Language.Lang $defaultLang }}{{ $xdefault = .Permalink }}{{ end }}{{ end }}
+  {{ end }}
+  {{ with $xdefault }}<link rel="alternate" hreflang="x-default" href="{{ . }}">{{ end }}
   <script>
     (function () {
       try {
